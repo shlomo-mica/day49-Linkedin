@@ -17,7 +17,7 @@ input_key=driver.find_element(By.NAME,value='session_key')
 input_password=driver.find_element(By.NAME,value='session_password')
 driver.implicitly_wait(4)
 input_key.send_keys('shlomo.mica@outlook.co.il')
-input_password.send_keys('NeLi2022')
+input_password.send_keys('cccc')
 time.sleep(1)
 signin_button=driver.find_element(By.TAG_NAME,value='button').click()
 
